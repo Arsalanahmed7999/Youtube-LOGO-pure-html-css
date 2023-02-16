@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: oswald;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #000;
+}
+
+.youtube{
+    height: 300px;
+    width: 600px;
+    border-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span{
+    font-size: 8em;
+    font-weight: bold;
+    margin: 0 8px;
+    padding: 0px 10px;
+}
+
+span:nth-child(2){
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0 0 10px inset rgb(110, 0, 0), 0 0 20px inset rgb(110, 0, 0), 0 0 40px inset  rgb(110, 0, 0);
+}
